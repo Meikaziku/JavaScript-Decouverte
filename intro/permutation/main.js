@@ -12,3 +12,4 @@ variable2 = stockage;
 console.log("valeurs après inversement");
 console.log(variable1);
 console.log(variable2);
+
