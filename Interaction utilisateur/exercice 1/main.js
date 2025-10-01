@@ -1,4 +1,4 @@
 
+let salutation = "Hello world!"
 
-
-alert("Hello world!");
+alert(salutation);
