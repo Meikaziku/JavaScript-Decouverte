@@ -1,11 +1,5 @@
-const mot = "exemple";
-let compteur = 0;
-const voyelles = "aeiou";
-
-for (let lettre of mot.toLowerCase()) {
-  if (voyelles.includes(lettre)) {
-    compteur++;
+for (let number = 0; number <= 20; number++) {
+  if (number % 2 === 0 && number <= 20) {
+    console.log(number);
   }
 }
-
-console.log(`Le mot "${mot}" contient ${compteur} voyelle(s).`);
