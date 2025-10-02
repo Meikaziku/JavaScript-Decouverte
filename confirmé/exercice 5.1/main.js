@@ -1,15 +1,13 @@
-let nombre = parseInt(prompt("veuillez saisir un nombre entre 1 et 3"))
+let isWin = false;
+let nombre;
 
-if (nombre === 2) {
+while (!isWin) {
+  nombre = parseInt(prompt("veuillez saisir un nombre entre 1 et 3"));
 
-    alert("La réponse est corrècte")
-    
-} else {
-    alert("La réponse est incorrecte")
+  if (nombre === 2) {
+    alert("La réponse est corrècte");
+    isWin = true
+  } else {
+    alert("La réponse est incorrecte");
+  }
 }
-
-
-
-
-
-
