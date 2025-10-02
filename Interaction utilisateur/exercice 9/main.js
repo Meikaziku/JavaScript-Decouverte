@@ -1,8 +1,13 @@
-let nombre = prompt("veuillez saisir un nombre")
+let chiffrePourTableMultiply = prompt(
+  "Veuillez saisir le chiffre dont vous voulez la table de multiplication"
+);
 
+let resultat = "";
 
 for (let index = 1; index <= 10; index++) {
-    let resultat = nombre*index
-    alert(`${nombre}*${index}=${resultat}`)
-    
+  resultat += `${chiffrePourTableMultiply} X ${index} = ${
+    chiffrePourTableMultiply * index
+  }\n`;
 }
+
+alert(resultat);
